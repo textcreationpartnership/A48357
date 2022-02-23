@@ -1,0 +1,451 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An epistle declaratorie, or manifest written by G. L. to his brethren residing in England</title>
+            <author>Leyburn, George, 1593-1677.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1657</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 51 KB of XML-encoded text transcribed from 28 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A48357</idno>
+            <idno type="STC">Wing L1937</idno>
+            <idno type="STC">ESTC R217653</idno>
+            <idno type="EEBO-CITATION">99829308</idno>
+            <idno type="PROQUEST">99829308</idno>
+            <idno type="VID">33745</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A48357)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 33745)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1992:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An epistle declaratorie, or manifest written by G. L. to his brethren residing in England</title>
+                  <author>Leyburn, George, 1593-1677.</author>
+               </titleStmt>
+               <extent>51, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>By the widdowe of Marke Wyon,</publisher>
+                  <pubPlace>[Douai] :</pubPlace>
+                  <date>1657.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>G.L. = George Leyburn.</note>
+                  <note>Place of publication from Wing.</note>
+                  <note>At foot of title page: Superiorum permissu.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Christian life --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-11</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2010-01</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:33745:1"/>
+            <p>AN EPISTLE DECLARATORIE, OR MANIFEST WRITTEN BY G. L. TO HIS BRETHREN RESIDING IN ENGLAND.</p>
+            <q>
+               <p>Non plus ſapere quam oportet ſapere ſed ſapere ad ſobrietatem. <bibl>
+                     <hi>Ad Rom.</hi> 12.</bibl>
+               </p>
+            </q>
+            <q>
+               <p>
+                  <hi>Apud Chriſtianos non qui patitur, ſed qui facit contumeliam, miſereſt.</hi> 
+                  <bibl>S. Hier. ad Marcum.</bibl>
+               </p>
+            </q>
+            <p>By the Widdowe of MARKE WYON, 1657.</p>
+            <p>
+               <hi>SVPERIORVM PERMISSV.</hi>
+            </p>
+            <pb facs="tcp:33745:2" rendition="simple:additions"/>
+            <pb facs="tcp:33745:2" rendition="simple:additions"/>
+            <pb facs="tcp:33745:3"/>
+            <pb facs="tcp:33745:3"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+      </front>
+      <body>
+         <div type="letter">
+            <pb facs="tcp:33745:4"/>
+            <pb n="3" facs="tcp:33745:4"/>
+            <head>AN EPISTLE DECLARATORIE, OR MANIFEST WRITTEN BY G. L. TO HIS BRETHREN RESIDING IN ENGLAND.</head>
+            <opener>
+               <salute>
+                  <seg rend="decorInit">M</seg>Y MVCH HONORED BRETHREN</salute>
+            </opener>
+            <p>Having beene certainly infor<g ref="char:EOLhyphen"/>med, that M.<hi rend="sup">r</hi> Tho. Blacloe hath lately published in print à certaine Letter conteyning divers vnhanſome, bitter, and vncharitable expreſſio<g ref="char:cmbAbbrStroke">̄</g>s againſt my owne perſon: as alſoe that à ſlender conſult of his London freinds hath ordered that the ſaid Letter shall be onely communicated
+<pb n="4" facs="tcp:33745:5"/>
+to thoſe amongſt you who are conſtitu<g ref="char:EOLhyphen"/>ted in Cheife Power and Autority: with deſigne vndoubtedly (for in prudence I cannot harbour an interpretation more fauorable of à proceeding ſoe vnbeſee<g ref="char:EOLhyphen"/>ming perſons of their charge and fun<g ref="char:EOLhyphen"/>ction) to leſſen me in their eſteeme, and by degrees to hurt my integrity, and wound my reputation in the opinion of all my Brethren: In this reſpect purely I have thought fitting, notwithſtanding that the ſaid letter is kept from me (which is an argument of foule play) to direct vnto you all in Generall this De<g ref="char:EOLhyphen"/>claratory Epiſtle or Manifeſt, which I doe aſſure me shall afford you ſufficient euidence, whereby to be confirmed in my Innocency, and to be convinc't in M.<hi rend="sup">r</hi> Blacloes vnreaſonable animoſity.</p>
+            <p>I ſaid in this reſpect purely, for the onely motive that inviteth me to imbarcke my ſelfe in a Manifeſt, is the vnhanſone re<g ref="char:EOLhyphen"/>ſult of the aboue mentioned Conſult; if that had not occur'd, I should in this oc<g ref="char:EOLhyphen"/>caſion
+<pb n="5" facs="tcp:33745:5"/>
+haue beene as abſtemious in the employing of my pen, as in other former occaſions, when I was ſufficiently provoked, as will appeare in the ſeries of my Manifeſt. However à remiſſe heate of Charity is capable to digeſt in<g ref="char:EOLhyphen"/>tenſe iniuries and calumnies: and it theire ingaged in Chriſts Militia I did not de<g ref="char:EOLhyphen"/>cline <hi>manum percutientis,</hi> here, as it weere <hi>miles emeritus</hi> I shall ioy to ſuffer <hi>linguam detrectantis.</hi> Since I was not worthy to repreſent my divine Maiſter in the effu<g ref="char:EOLhyphen"/>ſion of his blood, I will ſtrive to imitate him in his <hi>flagello lingue,</hi> that is in his in<g ref="char:EOLhyphen"/>iurious reproches: <hi>Samaritanus es, demo<g ref="char:EOLhyphen"/>niuns babes, potator vinies, ſeductores, blaſ<g ref="char:EOLhyphen"/>phenouses, non amicus Caeſa<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>s es, &amp;c.</hi> and as S. Hierome ſays, <hi>Chriſt<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> miles per bo<g ref="char:EOLhyphen"/>nam &amp; malam famam a <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> &amp; a ſini<g ref="char:EOLhyphen"/>ſtris graditur.</hi> And I dare ſay to M.<hi rend="sup">r</hi> Bla<g ref="char:EOLhyphen"/>cloe as S. Auſtin. ſaid to his Aduerſary à Manichaean, <hi>ſenti dit</hi> Ley but no) <hi>quicquid libet, ſola me in oculis Dei conſcientia non acceſet. Neque debet</hi> (ſaith S. Ambroſe)
+<pb n="6" facs="tcp:33745:6"/>
+               <hi>plus ponderis eſſe in alieno convitio quam in ſuae conſcientiae testimonio.</hi> Beſides if our heavenly Father be ſoe infinitely good, that <hi>ſuper omnes impios &amp; inimicos ſuos ſo<g ref="char:EOLhyphen"/>lem facit oriri, &amp; nubes pluere:</hi> I weere an vnworthy child of that Father if I should hate or hurt my enemies, eſpecially there bring hopes of their Converſion as long as they are <hi>viatores.</hi> Wherefore I will ſay and pray with Bleſſed S Auſtine, <hi>vtinam cui nos modo exercent, con vertantur, &amp; no<g ref="char:EOLhyphen"/>biſcum exerceantur: tamen quam diu ita ſunt vt exerceant, non eos oderimus, quia in eo quod malus eſt quis eorum, an vſque in finem perſe veraturus ſit, ignoramus: &amp; plerumque cum tibi videris odiſſe mimicum, fratrem odiſti &amp; neſcis.</hi> And this was one of that glorious Martyr Sir Thomas Moore his pious inſtruction and meditation when impriſon'd in the Tower of London his perſecutors ſaught his life.</p>
+            <p>Thus much incidently, to shew vnto you that I doe ſtand ſoe fixt't on theſe Chriſtian principles, commanding love
+<pb n="7" facs="tcp:33745:6"/>
+towards our enemies, that onely my owne deſire to prevent thoſe, that shall goe about to foment diviſion betwix't me and my Brethren, and not M.<hi rend="sup">r</hi> Bla<g ref="char:EOLhyphen"/>cloes provocation hath occaſioned my engagement in this declaratory Epiſtle: and accordingly as I shall make appeare my owne integrity and his inordinate animoſity, let me ſtand or fall in your iud<g ref="char:EOLhyphen"/>gements. Wherefore to proſecute my deſigne.</p>
+            <p>S. Auſtine relateth that Iulian the Pe<g ref="char:EOLhyphen"/>lagian Bishop was in greate eſteeme with all the Catholick Clergy of Africke, before he became an enemy to Catho<g ref="char:EOLhyphen"/>lick doctrine, aſcribing ſais the ſame S. Auſtine to <hi>bonae voluntati orantis</hi> what was due to <hi>gratiae Dei miſerenti<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>;</hi> which Error S. Proſper deſcribeth in theis verſes
+<q>
+                  <l>Tam bona quemque docet ſectari poſſe ſuopte</l>
+                  <l>Ingenio, qua poſſe ſubeſt cuique in mala ferri.</l>
+               </q>
+            </p>
+            <p>I can ſay the ſame of M.<hi rend="sup">r</hi> Blacloe, he
+<pb n="8" facs="tcp:33745:7"/>
+was in high vogue with all our Clergy, and in great reſpect whereſoever his Converſation made him knowne, before vnhappily he eſpouſed erroneous and dangerous doctrines. The firſt begin<g ref="char:EOLhyphen"/>ning of his decreaſe in the good opinion that our Bishop and his Clergy had ha<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>onted of his conceived extraordinary parts and merits, happen'd, when having approved with his owne ſubſcription di<g ref="char:EOLhyphen"/>vers ſca<g ref="char:cmbAbbrStroke">̄</g>dalous opinio<g ref="char:cmbAbbrStroke">̄</g>s, he could not be in<g ref="char:EOLhyphen"/>duced to recall his inco<g ref="char:cmbAbbrStroke">̄</g>ſiderate act for any entreaty, or reaſo<g ref="char:cmbAbbrStroke">̄</g> his Brethren could vſe. And ſince, by occaſion of his owne writings published in print, and Cheifly his new divinity, he is abſolutely va<g ref="char:EOLhyphen"/>nisht and loſt in the opinion, that was formerly conceived of his worth. For our Bleſſed Bishop of happy memory out of his religious zeale, tender Care, and affection towards his flocke did en<g ref="char:EOLhyphen"/>ioyne me his Grand Vicar then reſiding in London to ſuppreſſe the ſaid new Di<g ref="char:EOLhyphen"/>vinity: ſignifying that it conteyned divers
+<pb n="9" facs="tcp:33745:7"/>
+naughty, erroneous, and ſcandalous do<g ref="char:EOLhyphen"/>ctrines, contradicting holy Scriptures, Councells, and contrary to the vniverſall practice of the Catholick Church. Where<g ref="char:EOLhyphen"/>fore in obedience to my Paſtors com<g ref="char:EOLhyphen"/>mand, and in performance of my owne charge, I acquainted our cheife Brethren, particular ſuperiours in particular di<g ref="char:EOLhyphen"/>ſtricts: as alſo adviſed them of the greate daunger that might proceede from <hi>pro<g ref="char:EOLhyphen"/>fane Nouelties,</hi> which like Cancers or Gangreenes do vſually ſpread, (if not op<g ref="char:EOLhyphen"/>portunely prevented and remedied) to the ruine of many ſoules.</p>
+            <p>But this performance of my Paſtorall duty, this execution of my obligation, this diſcharge of my Conſcience, did ſoe extreamely irritate and incenſe M.<hi rend="sup">r</hi> Bla<g ref="char:EOLhyphen"/>cloe, and amongſt his adherents particu<g ref="char:EOLhyphen"/>larly M.<hi rend="sup">r</hi> Harrington, that theſe two thought it fitting to decry me in divers companyes, imagining perhaps, that to cry downe my partes, was to cry vp the new divinity which my Cry before had
+<pb n="10" facs="tcp:33745:8"/>
+croſs't in its intended cariere.</p>
+            <p>The ordinary Character they were pleasd to beſtow on me was an illiterate man, not capable to ſay bo to a Gooſe: which I doe profeſſe vnto you did noe more ſtartle or trouble me then would haue done the eating of a Gooſe if ſtatu'd with hunger. However I writte a civill letter to M.<hi rend="sup">r</hi> Blacloe taking notice of his incivilities towards me, and concluded it with the ſame wordes with which Great S. Auſtine doeth end his booke, <hi>de dono perſeuerantiae. Ego</hi> (inquit) <hi>cum per eos, qui meos labores legunt non ſolum doctior verum etiam emendatior fio, propitium mihi Deum agnoſco, &amp; hoc per Eccleſiae Docto<g ref="char:EOLhyphen"/>res maxime expecto, ſi &amp; in ipſorum manus venit, dignentur noſſe quod ſcribo.</hi> And in another place ſpeaking of his owne wri<g ref="char:EOLhyphen"/>tings he expreſſeth his humility in a per<g ref="char:EOLhyphen"/>fecter manner: <hi>quicumque,</hi> (inquit) <hi>iſta le<g ref="char:EOLhyphen"/>cturi ſunt, non me imitentur erranteni, ſed in melius proficientem.</hi> And I wish him to take into his ſerious conſideration his
+<pb n="11" facs="tcp:33745:8"/>
+owne and S. Auſtines ſpirit, and to com<g ref="char:EOLhyphen"/>pare the one with the other: and being it is certaine that S. Auſtines ſpirit was a gallant ſpirit and proceeded from God, it would neceſſarily follow that ſpirit not to be inſpired by God, which should be oppoſite to S. Auſtines ſpirit. However my counſell and advice made ſoe little impreſſion, and produced ſoe little fruite, that it rather incouraged M.<hi rend="sup">r</hi> Blacloes a<g ref="char:EOLhyphen"/>nimoſity againſt me.</p>
+            <p>For ſoone after I being forced in a man<g ref="char:EOLhyphen"/>ner out of England to engage in the go<g ref="char:EOLhyphen"/>vernment of our old Mothers affaires, one halfe yeere was hardly expired, when I was ſummon'd to encounter with a little Army of falſe accuſations (forged by him and his adherents) and preſented againſt me to the Popes Nuncio reſiding at Paris. But in regard I was in another Territory, they were remitted to the Nuncio reſiding at Bruſſells, to whoſe Iuriſdiction I was ſubiect. And bis Lords<g ref="char:EOLhyphen"/>hippe after a mature examination of
+<pb n="12" facs="tcp:33745:9"/>
+my Anſweres to all the ſaid accuſations, was evidently convinc't of the indi<g ref="char:EOLhyphen"/>rect proceedings vſed by my Adverſa<g ref="char:EOLhyphen"/>ries, inſomuch that he was pleasd to ſtile the accuſations exhibited againſt me <hi>the bowes of the wicked,</hi> and calld my adverſa<g ref="char:EOLhyphen"/>ries <hi>malitious men,</hi> as appeareth by his ſaid Lordshipps letter written to my ſel<g ref="char:EOLhyphen"/>fe, which is as followeth.</p>
+            <floatingText type="letter" xml:lang="lat">
+               <body>
+                  <head>EXIMIE AC ADMODVM R.<hi rend="sup">de</hi> DOMINE.</head>
+                  <p>Tam ex candida, prudenti, atque be<g ref="char:EOLhyphen"/>nigna Dominationis Vestrae Reſponſione, quam optimis aliorum relationibus Innocen<g ref="char:EOLhyphen"/>tiam eius perſpectam habeo; cumque diuino Tribunali cauſam ſuam probaſſe videatur, non officient hominum iudicia, multò minùs maleuolorum criminationes. Vnum hoc pe<g ref="char:EOLhyphen"/>riculorum eſt quae ſe paſſum fuiſſe narrat S. Paulus Apoſtolus, nimirum in falſis fratri<g ref="char:EOLhyphen"/>bus: vnde nouum non eſt proborum famam perperam ſugillari. Sed patientiae clypeo ad ſuſtinendum, non minus quam brachio forti
+<pb n="13" facs="tcp:33745:9"/>
+ad agendum Dominationem Veſtram muni<g ref="char:EOLhyphen"/>tam gaudeo, aduerſus retribuentes mala pro bonis, &amp; detrabentes ei, quia ſecuta eſt boni<g ref="char:EOLhyphen"/>tatem. Porro non omittam Innocentiam Do<g ref="char:EOLhyphen"/>minationis Veſtrae vbi opus fuerit propalare, &amp; iniquorum arcus confringere, illam ſolum bortando, vt quemadmodum tanta laude in<g ref="char:EOLhyphen"/>ceperit, ita in poſterum malum in bono vin<g ref="char:EOLhyphen"/>cere alacriter pergat; dum rogo Dominum Deum, vt condigna mentis praemia Domi<g ref="char:EOLhyphen"/>nationi Vestrae retribuat in hac vita, &amp; in futura. Bruxellis <hi>10.</hi> Februarij <hi>1654.</hi>
+                  </p>
+                  <closer>
+                     <signed>
+                        <hi>Eximiae ac admodum R.<hi rend="sup">dae</hi> D.<hi rend="sup">o•is</hi> Veſtrae.</hi> Addictiſsimus ſeruus <hi>ANDREAS A<gap reason="illegible" resp="#UOM" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>BAS S. ANGELI.</hi>
+                     </signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <p>In this Conflict or Combate my Inno<g ref="char:EOLhyphen"/>cency obtain'd a conſiderable victory, which invited me to ſing cheerefully with S. Chryſoſtome, <hi>Gaude Innocentia &amp; exulta, vbique illaeſaes, vbique ſe<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ura; ſi humiliaris erigeris, ſi pugnas vincis, ſi occide<g ref="char:EOLhyphen"/>ris coronaris.</hi>
+            </p>
+            <p>
+               <pb n="14" facs="tcp:33745:10"/>The afore mentioned accuſations as I doe probably coniecture had their riſe from a particular indignation occaſioned by a certaine Letter that D.<hi rend="sup">r</hi> Daniel and my ſelfe ioyntly writte (ſome Months before the ſaid accuſations weere exhibi<g ref="char:EOLhyphen"/>ted) to our Brethren aſſembled in Lon<g ref="char:EOLhyphen"/>don, out of moſt parts of England, and is as followeth.</p>
+            <floatingText type="letter" xml:lang="eng">
+               <body>
+                  <opener>
+                     <salute>MOST HONORED BRETHREN</salute>
+                  </opener>
+                  <p>Wee cannot ſufficiently expreſſe the ioy and comfort, that wee haue receiued, vn<g ref="char:EOLhyphen"/>derſtanding of an appoynted meeting for the better ſettleme<g ref="char:cmbAbbrStroke">̄</g>t of your affaires, not doubting but that you will aſſemble as the Children of Iſrael did, when they ſought God in their pr<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ſing neceſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ities, <hi>quaſi vir vnus,</hi> or as the Apoſtle ſayes, <hi>ſolliciti ſervare vnitatem ſpiritus in vinculo pacis,</hi> that vnder Chriſt the head, in your vnanimous reſolutio<g ref="char:cmbAbbrStroke">̄</g>s, euery member of our Clergie may proſper. Wee heartily wish it that might lye within our reach to afford you our perſonall aſsiſtance in the
+<pb n="15" facs="tcp:33745:10"/>
+accomplishment of your pious and holy de<g ref="char:EOLhyphen"/>ſignes, howſoeuer wee haue thought fitting at this diſtance to inculcate vnto you what wee conceiue to bee moſt conducing to the purcha<g ref="char:EOLhyphen"/>ſing of the diuine bleſsing therein, which are our ioynt and earneſt deſires. <hi>1.</hi> That à firme and happy correſpondence may bee eſtablished betwixt you, and your old Mother, to whom you owe what you enioy of happines in that Kingdome. That you are now <hi>vnum corpus in Chriſto,</hi> is to be aſcribed to her care, and vigilance, whoſe glorious Martyrs blood hath beene the ſeede of your church. <hi>2.</hi> That <hi>per omnia</hi> you obey your Ordinarie, whom the holy Ghoſt hath conſtituted to gouerne you: wee ſay <hi>per omnia,</hi> making him ſole Vmpire in your Controuerſies or differences, and ſuch obedience vndoubtedly will make vs à glorious body, and Maiſters of our Aduerſaries who are emulous of our dignitie: <hi>vir obediens lo<g ref="char:EOLhyphen"/>quetur victoriam. 3.</hi> That whereas our Cler<g ref="char:EOLhyphen"/>gies purity and integrity in points of doctrine for which formerly it was much renown'd, hath beene greatly ſtain'd both there, and in
+<pb n="16" facs="tcp:33745:11"/>
+forreigne Countreys, through the late writings of M.<hi rend="sup">r</hi> Thomas Blacloe Balchelour of Diuini<g ref="char:EOLhyphen"/>ty, and of M.<hi rend="sup">r</hi> Henry Holden Doctor of Pa<g ref="char:EOLhyphen"/>ris (againſt whom are great clamours of Re<g ref="char:EOLhyphen"/>gulars and others to our vnspeakable preiu<g ref="char:EOLhyphen"/>dice, and dishonour, being both members of our ſaid Clergie) you will proteſt againſt the ſaid writings, and diſauowe them as in noe wiſe allowed or countenanc'd by you. And thus wishing you as much happines in all your af<g ref="char:EOLhyphen"/>faires as you owne hearts can deſire, wee reſt.</p>
+                  <closer>
+                     <dateline>
+                        <date>
+                           <hi>4.</hi> Iulii <hi>1653.</hi>
+                        </date>
+                     </dateline>
+                     <signed>Your moſt affectionate and moſt Humble ſeruants. G. L. EDWARD DANYEL.</signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <p>The onely motiue of inſerting the laſt clauſe, concerning M.<hi rend="sup">r</hi> Blacloe and D.<hi rend="sup">r</hi> Holden, was our ioynt zeale for the Clergies honour and reputation, which in forreigne parts, and principally in the Court of Rome, was extreamely ec<g ref="char:EOLhyphen"/>clips'd,
+<pb n="17" facs="tcp:33745:11"/>
+by the temetarious writings of thoſe two Cheife members: from thence being infer'd, that the whole English Clergy roote and branch was addicted to ſcandalous Nouelties, and infected with dangerous doctrines, according to the Common report ſpread both in Fraunce, and Flanders, as alſoe intimated in diuers letters written from Rome to our Bishop, my ſelfe, and others. Howe<g ref="char:EOLhyphen"/>uer this eminent danger of ruine to the Clergy's honour, was ſo litle reſented by M.<hi rend="sup">r</hi> Harrington, and the reſt of M.<hi rend="sup">r</hi> Bla<g ref="char:EOLhyphen"/>cloes party preſent in the ſaid Aſſembly, that the Letter had beene abſolutely reie<g ref="char:EOLhyphen"/>cted, if the Maior part had not reſiſted, as can witnes the Members of that Aſſem<g ref="char:EOLhyphen"/>bly, Iuly 1653. But when the ſaid Letter and the effects it had wrought in the ſaid Aſſembly came to M.<hi rend="sup">r</hi> Blacloes notice, how paſſionately he was moued, is eui<g ref="char:EOLhyphen"/>dently gathered from his dedicatory Epi<g ref="char:EOLhyphen"/>ſtle to his condemned Booke, entituled <hi>So<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>us Buccinae,</hi> which is thus.</p>
+            <floatingText type="letter" xml:lang="lat">
+               <body>
+                  <pb n="18" facs="tcp:33745:12"/>
+                  <opener>
+                     <salute>ODOARDO DANIELL, &amp;c.</salute>
+                  </opener>
+                  <p>
+                     <hi>Oportet ergo, vt ad te proficiſcatur iſte li<g ref="char:EOLhyphen"/>bellus, etiam talem? fuerunt anni in quibus honoris &amp; amicitiae inter nos ſigillum depan<g ref="char:EOLhyphen"/>gi potuiſſet. Inuidit laeuus aliquis genius: &amp; in lapſum impegiſti; grauem illum, ſed huma<g ref="char:EOLhyphen"/>num. Diuturno conuictu &amp; conſenſu conſo<g ref="char:EOLhyphen"/>lidatam amicitiam, &amp; ipſam publicae hone<g ref="char:EOLhyphen"/>ſtatis erubeſcentiam vno actu perrupiſti: ig<g ref="char:EOLhyphen"/>naro &amp; tibimet impari obſecutus viro. Credo grandiloquentia vanitatis ipſius, Patrono<g ref="char:EOLhyphen"/>rum gratiam gloriose iactantis perterrefa<g ref="char:EOLhyphen"/>ctus.</hi> Et paulo poſt, <hi>propterea hunc innocen<g ref="char:EOLhyphen"/>tiae mea &amp; tuae perfidiae publicum qui vbique occurſet, &amp; te contrate statuat <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>bteſtatorem emitto: quem ſiue in bibliopolijs proſtantem aſpexeris, &amp;c. horreſcas infamiae tuae prodi<g ref="char:EOLhyphen"/>torem. &amp;c.</hi>
+                  </p>
+               </body>
+            </floatingText>
+            <p>In this Epiſtle dedicatory M.<hi rend="sup">r</hi> Blacloe abuſeth D.<hi rend="sup">r</hi> Daniel openly, my ſelfe co<g ref="char:EOLhyphen"/>uertly, without naming me, iudging it not fitting to name whom he had ſuffi<g ref="char:EOLhyphen"/>ciently deſcribed to be knowne. But vn<g ref="char:EOLhyphen"/>feinedly he doth performe the <hi>flagellum
+<pb n="19" facs="tcp:33745:12"/>
+linguae</hi> with ſoe great dexteritie, that it ſeem's naturall vnto him. And his ani<g ref="char:EOLhyphen"/>moſity ended not heere; for ſome wee<g ref="char:EOLhyphen"/>kes after he writte à quarreling Letter to our Bishop, and his Lordship recom<g ref="char:EOLhyphen"/>mended vnto me his anſwere to the ſaid Letter, in the Cloſe of which his Lords<g ref="char:EOLhyphen"/>hip addreſſeth himſelfe to M.<hi rend="sup">r</hi> Blacloe in these expreſſe wordes, beſtowing on him a Fatherly admonition.</p>
+            <p>
+               <hi>Onely for your ſoules ſake I requeſt you, to leaue thoſe naughty reproches, which you giue to One equall to your ſelfe in all thinges, but you name him not (you know why) that he is a lying and periur'd ſycophant, a wre<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hed ſy<g ref="char:EOLhyphen"/>cophant, aboute-ſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>au, who careth not what diſorder he breedeth, ſoe he nourisheth diſ<g ref="char:EOLhyphen"/>cord for his owne ambition. And young M.<hi rend="sup">r</hi> Leyburne whom M.<hi rend="sup">r</hi> Clifford heere ſaith is beloued of all, you ſay, if you meete him you will tell him that he is a ſawcy Boy. To omitt the taunts of Paramount Bishop, and domi<g ref="char:EOLhyphen"/>neering wayes, and ſuch others which you beſtow vpon my ſelfe: it ſeem's you haue for<g ref="char:EOLhyphen"/>gotten
+<pb n="20" facs="tcp:33745:13"/>
+your ſolemne promiſe which you made at your ordination to giue reuerence and obe<g ref="char:EOLhyphen"/>dience to your Ordinary, and the prayer of the Church, which she maketh in the ordination of a Bishop,</hi> Qui maledixerit tibi, fit ille maledictus, &amp; qui benedixerit tibi, bene<g ref="char:EOLhyphen"/>dictionibus repleatur. <hi>But I pray you forget not the words of the Apoſtle</hi> maledici reg<g ref="char:EOLhyphen"/>num Dei non conſequentur: <hi>nor of our ſa<g ref="char:EOLhyphen"/>uiour:</hi> qui dixerit fratri ſuo fatue reus erit gehennae ignis. <hi>Such reproachfull wordes as you vſe in your Letter beſeeme neither Chri<g ref="char:EOLhyphen"/>ſtian nor Prieſt, but diſcouer too too great paſsion.</hi>
+            </p>
+            <p>When our Bishop ſent me his Anſwere to M.<hi rend="sup">r</hi> Blacloe, wherein the mentioned reproches are comprehended, his Lords<g ref="char:EOLhyphen"/>hip intimated that I was meant by ſyco<g ref="char:EOLhyphen"/>phant, lying ſycophant, &amp;c. howeuer, <hi>One equal in all things,</hi> was inte<g ref="char:cmbAbbrStroke">̄</g>ded. What ſtrange fancy, humour, or genious poſſeſ<g ref="char:EOLhyphen"/>ſeth him! how vnproportionable are his exteriour garments to his interiour ſpirit! that makes him abuſe his ſuperior, e<g ref="char:EOLhyphen"/>qualls,
+<pb n="21" facs="tcp:33745:13"/>
+and whomſoever he conceives to abhorre from his exorbitant learning. <hi>Vtinam didiciſſet ad humilitatem &amp; ſaperet ad ſobrietatem.</hi> I profeſſe faithfully I haue an extreame compaſſion towards him, ſoe farre I am from hating his perſon. Al<g ref="char:EOLhyphen"/>ſoe in his letter to our Bishop he vncivilly treateth a worthy Irish Bishop reſiding in London, to whom his Lordship had conferred power to exerciſe Epiſcopall Iuriſdiction, for he calleth him <hi>Factions</hi> and counſelleth his Lordship to recall his power. Neither heere did his vnquiet ge<g ref="char:EOLhyphen"/>nious ſuffer him to reſt. For he writte a<g ref="char:EOLhyphen"/>nother vnhanſome letter to the Nuncio reſiding at Paris, iniuring both our Bis<g ref="char:EOLhyphen"/>hop and my ſelfe: and heere I haue thought fitting to inſert it, to conſumma<g ref="char:EOLhyphen"/>te his animoſity.</p>
+            <floatingText type="letter" xml:lang="lat">
+               <body>
+                  <opener>
+                     <salute>ILLVSTRISSIME AC RD.<hi rend="sup">me</hi> DOMINE.</salute>
+                  </opener>
+                  <p>Increbuit apud nos rumor ab aliquot men<g ref="char:EOLhyphen"/>ſibus quod Illustriſsima Dominatio veſtra Epiſcopo Calcedonenſi ex monda<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> Summi Domini illi iam a biennio intimato interdi<g ref="char:EOLhyphen"/>xerit
+<pb n="22" facs="tcp:33745:14"/>
+vſum omnis potestatis in Anglos, quamdiu Pariſijs reſidet. Timentur autem apud nos de praefati Epiſcopi authoritate ori<g ref="char:EOLhyphen"/>turae ex hac ſuſpicione diſſenſiones, quoniam ipſe Epiſcopus toto hoc biennio priſtinam po<g ref="char:EOLhyphen"/>teſtatem rigicius quam prius exercuit: ex in<g ref="char:EOLhyphen"/>ſtigatione cuiuſdam ambitioſi Clerici qui ho<g ref="char:EOLhyphen"/>die praeſidet Collegio Noſtratium Daaci: ſed &amp; ipſum decretum interpretatione quadam quaſi ad ſolos Hibernos pertineat eludere co<g ref="char:EOLhyphen"/>matus eſt Propterca humilime <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>u<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>plico Illu<g ref="char:EOLhyphen"/>ſ<gap reason="illegible" resp="#UOM" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>ſamae Dominationi veſtre, vt dignetur ſenſum ſuae Sanctitatis (quantum ſpectat ad <gap reason="illegible" resp="#UOM" extent="6 letters">
+                        <desc>••••••</desc>
+                     </gap>ntiam n<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſtram dicto Praejuli<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> exhiben<g ref="char:EOLhyphen"/>dum) per ſcipturam publicationis legitimae capacem, hoc eſt, vel ſuo, vel Secretarij <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ri<g ref="char:EOLhyphen"/>regrapho, iu<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>u Illuſtriſsimae Dominationis veſtrae ſignatam ad nos mandare, vt impe<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#UOM" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> ſanctitatis, &amp; pax Eccleſiae poſsint apud nos conſeruant.</p>
+                  <closer>
+                     <dateline>Londini
+<date>
+                           <hi>23</hi> Martii illo veteri.</date>
+                     </dateline>
+                     <signed>Illuſtriſſimae Reuerendiſſimae Domina<g ref="char:EOLhyphen"/>tionis veſtrae ſeruus humillimus. THOMAS WHITE.</signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <p>
+               <pb n="23" facs="tcp:33745:14"/>Heere it is obſervable that M.<hi rend="sup">r</hi> Blacloe refuſed formerly to father this Letter, pretending that the Clergies Adverſaries had forg'd it to foment diſſenſion: and ſoe his friends perſwaded our Bishop. How<g ref="char:EOLhyphen"/>ever I doe proteſt vnto you ſeriouſly, that he and noe other alive did write the ſaid letter: for this coppy I received fro<g ref="char:cmbAbbrStroke">̄</g> à noble Perſon, who offered me the Originall, with ſome others written by M.<hi rend="sup">r</hi> Blacloe to D.<hi rend="sup">r</hi> Holden: and the ſaid Originall is yet within my reach The ground or mo<g ref="char:EOLhyphen"/>tive whefore he thought fitting not to Father the ſaid Letter was, becauſe there had beene a difference about the ſame ti<g ref="char:EOLhyphen"/>me, betwixt his friend M.<hi rend="sup">r</hi> Harrington, and his Lordship, who was informed, that the ſaid M.<hi rend="sup">r</hi> Harrington with ſome others, had à deſigne to depriue him of his Epiſcopall autority, which this Letter would haue ſufficiently confirmed.</p>
+            <p>As concerning the eſteeme that ſome of M.<hi rend="sup">r</hi> Blacloes adherents may imagine his workes to haue purchas'd in forreigne
+<pb n="24" facs="tcp:33745:15"/>
+parts, I doe aſſure you faithfully, that they haue neither found credit, nor en<g ref="char:EOLhyphen"/>tertainment. In this Vniverſity my ſelfe haue conferred with the principall Rea<g ref="char:EOLhyphen"/>ders of Divinity concerning his opinions: and their Iudgment is that they ought to be deteſted, <hi>cane &amp; angue peius.</hi> And when I was at Lovaine M.<hi rend="sup">r</hi> Richard Iohnſon his ſingular friend, and formerly a great adorer of his Learning, aſſured me that he had communicated one of his bookes with the Cheifeſt Doctor of that Vniverſity, à lanſeniſt, deſiring his opi<g ref="char:EOLhyphen"/>nion of it: who after that he had peruſed the ſaid Booke, profeſſed ingeniouſly that he was aſtonisht, that ſuch learning should be ſpread abroad, and not cenſu<g ref="char:EOLhyphen"/>red. And in the Court of Rome his wri<g ref="char:EOLhyphen"/>tings haue found ſoe little favour, that in part they are allready condemned.</p>
+            <p>Notwithſtanding all this M.<hi rend="sup">r</hi> Blacloe perſevereth inflexibly obſtinate in his fancied opinions, which weere eaſily confuted, if time and leaſure from more
+<pb n="25" facs="tcp:33745:15"/>
+ſerious affaires would permit. How<g ref="char:EOLhyphen"/>ever thus much <hi>obiter</hi> I dare make good, that in his Learning he is iniurious to ho<g ref="char:EOLhyphen"/>ly Scripture, to Councells, and to the vni<g ref="char:EOLhyphen"/>verſall practice of the Catholick Church: which thus briefly I will demonſtrate.</p>
+            <p n="1">1. He is iniurious to holy Scripture ſpea<g ref="char:EOLhyphen"/>king irreverently of it. For S. Paul 2. ad Tim. 3. ſtileth holy Scripture <hi>Doctrina diuinitus inſpirata, <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tilis ad docendum, &amp; arguendum,</hi> that is as holy Fathers inter<g ref="char:EOLhyphen"/>pret, <hi>ad refellenda &amp; coarguenda falſa dog<g ref="char:EOLhyphen"/>mata:</hi> But M.<hi rend="sup">r</hi> Blacloe ſais expreſſely in one of his workes, that holy Scripture is noe more proper <hi>ad refellenda falſa dog<g ref="char:EOLhyphen"/>mata,</hi> then is à beetle, to cut Which irre<g ref="char:EOLhyphen"/>verent compariſon I haue heard our Bishop terme a <hi>blaſphemy.</hi> Ergo in his Learning he is iniurious to holy Scri<g ref="char:EOLhyphen"/>pture.</p>
+            <p n="2">2. He is iniurious to Councells, for the Councell of Florence <hi>in Decreto Eugenij</hi> defineth <hi>animas illoru<g ref="char:cmbAbbrStroke">̄</g> qui poſt Baptiſmum. ſuſceptum nullam omnino peccati maculam
+<pb n="26" facs="tcp:33745:16"/>
+contraxerunt, illas etiam quae post contra<g ref="char:EOLhyphen"/>ctam peccati maculam, vel in ſuis corporibus, velijſdem exutae corporibus, ſunt purgatae, in caelum mox recipi, &amp; inturri ipſum Deum Vnum &amp; Trinum.</hi> Where is obſervable, that the Councell vſeth the particle <hi>Mox</hi> that is <hi>forthwith, by and by,</hi> and conſe<g ref="char:EOLhyphen"/>quently not to be extended to the day of Iudgement. The ſame verity is contey<g ref="char:EOLhyphen"/>ned in the Cou<g ref="char:cmbAbbrStroke">̄</g>cell of Trent. But M.<hi rend="sup">r</hi> Bla<g ref="char:EOLhyphen"/>cloe maintaineth impriſonment of the faithfull ſoules in Purgatory, vntill the day of Iudgment. Ergo he is iniurious to Councells.</p>
+            <p>Alſo I shall adde to the ſaid Councells Pope Benedict the 12. who <hi>Decreto, Be<g ref="char:EOLhyphen"/>nedictus Deus in donis ſuis,</hi> more particu<g ref="char:EOLhyphen"/>larly doth illuſtrate this vndoubted veri<g ref="char:EOLhyphen"/>ty. <hi>Definimus</hi> (ſaith he) <hi>quod ſecundum communem Dei ordinationem, animae San<g ref="char:EOLhyphen"/>ctorum omnium qui de hoc mundo ante Do<g ref="char:EOLhyphen"/>mini noſtri IESV Chriſti paſsionem deceſſe<g ref="char:EOLhyphen"/>runt, noc non Sanctorum Martyrum, Con<g ref="char:EOLhyphen"/>feſſorum, Virginum, &amp; aliorum fidelium de<g ref="char:EOLhyphen"/>functorum
+<pb n="27" facs="tcp:33745:16"/>
+poſt ſacrum abijs Chriſti Baptiſ<g ref="char:EOLhyphen"/>ma ſuſceptum in quibus nihil purgabile fuit quando deceſſerunt; nec erit quando decedent etiam in futurum, vel ſi tam fuerit aut crit aliquid purgabile in ijſdem cum poſt mortem ſuam fuerint purgatae: ac quod anima puero<g ref="char:EOLhyphen"/>rum eodem Chriſti baptiſmate renatorum, &amp; baptizandorum cum fuerint baptizati ante vſum liberi arbitrij decedentium, mox poſt mortem ſuam &amp; purgationem prafatam in illis qui purgatione huiuſmodi indigebant, etiam ante reſumptionem ſuorum corporum &amp; iudicium generale, poſt Aſcenſionem Sal<g ref="char:EOLhyphen"/>uatoris noſtris IESV Chriſtian Celu<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, ſur<g ref="char:EOLhyphen"/>runt, ſunt, &amp; erunt in calo, caelorum regno, &amp; Paradiſo caleſti cum Chriſto, Sanctorum Angelorum conſortio aggregata.</hi> Et infra ſic habetur. <hi>Quicunque deinceps pr<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>dictarum noſtrarum definitionum ſea determinatro<g ref="char:EOLhyphen"/>num, ac ſingularum ipſarum contrarium ſcienter, &amp; pertinaciter, tenere, aſſeeere, praedicare, docere, aut defendere verbo vel ſcripto praeſumpſerit, contra cuntſicut contra hareticum modo debito procedatur.</hi>
+            </p>
+            <p>
+               <pb n="28" facs="tcp:33745:17"/>Heere is obſervable that Pope Benedict aboue mention'd ſucceeded Iohn the 22. which I thinke fitting to inculcate, in re<g ref="char:EOLhyphen"/>gard that I doe well remember, that a certaine friend of mine being in confe<g ref="char:EOLhyphen"/>rence with M.<hi rend="sup">r</hi> Harrington, modeſtly re<g ref="char:EOLhyphen"/>prehended M.<hi rend="sup">r</hi> Blacloe for his doctrine, concerning the detention in Purgatory of ſoules departed vntill the day of Iudg<g ref="char:EOLhyphen"/>ment, alleaging that never any Catholick Divine owned that opinion. To which M<hi rend="sup">r</hi> Harrington replyed ſaying, yes a Pope of Rome Iohn the 22. Where agai<g ref="char:EOLhyphen"/>ne is obſervable, that a certaine learned Frier, called Occham or Occhamus, nati<g ref="char:EOLhyphen"/>ve of England being much disguſted with the ſaid Pope Iohn, inſinuated him<g ref="char:EOLhyphen"/>ſelfe into the Emperours favour, that was in actuall hoſtility with his Holines, and by him protected, and countenanc'd, pu<g ref="char:EOLhyphen"/>blished abroad a ſcandalous writing, in<g ref="char:EOLhyphen"/>tituled <hi>Errores Ioannis</hi> 1. 2. amongſt which he mentioneth a definition made by his Holines, that excludeth from the King<g ref="char:EOLhyphen"/>dome
+<pb n="29" facs="tcp:33745:17"/>
+of heaven the faithfull departed till the day of Iudgment. But in this Con<g ref="char:EOLhyphen"/>troversy Benedictus the 12.<hi rend="sup">th</hi> a renow<g ref="char:EOLhyphen"/>ned Prelate and immediate Succeſſor to Iohn the 22. ought rather to be credited than Occham, that was a profeſſed ene<g ref="char:EOLhyphen"/>my to Iohn the 22. And doubtles if any ſuch definition had paſſed, his immediate ſucceſſor Benedict the 12. would haue ta<g ref="char:EOLhyphen"/>ken notice of it. And it is Theologically evident, that noe Pope (ſince the firſt ere<g ref="char:EOLhyphen"/>ction of the Popedome) hath erred defi<g ref="char:EOLhyphen"/>ning as <hi>Paſtor Vniuerſalis Eccleſiae:</hi> which veritie is maintained by the whole Cur<g ref="char:EOLhyphen"/>rent of Catholick Doctors grounded in our Sauiours wordes to S. Peter, <hi>ego autem rogavi pro te,</hi> (Petre) <hi>vt non deficiat fides tua;</hi> the efficacy of which prayer, both S. Thomas, and S. Bonaventure doe ex<g ref="char:EOLhyphen"/>te<g ref="char:cmbAbbrStroke">̄</g>d to all the ſucceſſors in S. Peters chaire. And for this reſpect onely I doe appeale vnto you all, whither M.<hi rend="sup">r</hi> Blacloe hath either prudently, or Catholically com<g ref="char:EOLhyphen"/>potted himſelfe in his booke that he de<g ref="char:EOLhyphen"/>dicates
+<pb n="30" facs="tcp:33745:18"/>
+to Alexander 7. now Pope: whe<g ref="char:EOLhyphen"/>rein audaciouſly he impugnes his infalli<g ref="char:EOLhyphen"/>bility. But let it be ſuppoſed that Iohn the 22. was author of the aboue mentioned definition, it will nothing availe or ad<g ref="char:EOLhyphen"/>vantage M.<hi rend="sup">r</hi> Blacloe, who will not pre<g ref="char:EOLhyphen"/>ferre a definition of a Pope to which he aſcribes fallibility, before the Decree of Eugenius in the Generall Councell of Florence, as alſoe before the vniverſall practice of the Catholick Church where he muſt admitte infallibility, if he will carrie the name of a Catholick But vnfei<g ref="char:EOLhyphen"/>nedly M.<hi rend="sup">r</hi> Harrington is reduc'd to ſome extremity, when he is forc't to flye to the Sanctuarie of Autority, which M.<hi rend="sup">r</hi> Bla<g ref="char:EOLhyphen"/>cloe is not accuſtomed to make vſe of, not ſoe much as of the holy Scripture it ſelfe, as is apparent to thoſe who haue peruſed his writings.</p>
+            <p n="3">3. M. Blacloe is iniutious to the Vni<g ref="char:EOLhyphen"/>verſall practice of the Catholick Church, in the foreſaid impriſoning of the faith<g ref="char:EOLhyphen"/>full ſoules in Purgatory vntill the day of
+<pb n="31" facs="tcp:33745:18"/>
+Iudgement; whereas the Catholick Church doth erect Privileg'd Altars, of<g ref="char:EOLhyphen"/>fer Maſſes, apply ſuffrages for their ſpee<g ref="char:EOLhyphen"/>dy delivery. Moreover he is notably in<g ref="char:EOLhyphen"/>iutious to the practice of the Catholick Church, in that he calleth thoſe Preiſts who live by the Altar, <hi>homines triobula<g ref="char:EOLhyphen"/>res.</hi>
+            </p>
+            <p>M.<hi rend="sup">r</hi> Blacloes erroneous impriſonment of ſoules in Purgatory, proceede; from a miſvnderſtanding of the inflexibility at<g ref="char:EOLhyphen"/>tributed by ſome Thomiſts to the An<g ref="char:EOLhyphen"/>gells, transferring that immobility to the ſoules departed. For the Said Thomiſts doe onely teach <hi>Daemone<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> eſſe in malo ob<g ref="char:EOLhyphen"/>stinatos, quia voluntas Angeli adhaeret fixe, &amp; immobiliter obiecto quod libere elegit, perinde ac facultas apprehenſiua rei quam cognouit:</hi> but the faithfull ſoules in Pur<g ref="char:EOLhyphen"/>gatory <hi>non elegerunt propria voluntate tor<g ref="char:EOLhyphen"/>menta temporalia qua patiuntur, ſed iuſtiſsi<g ref="char:EOLhyphen"/>mo Dei iudicio puniuntur.</hi> Neither is there any Thomiſt or Divine that will make vſe of that inflexibility, to prove the de<g ref="char:EOLhyphen"/>tention
+<pb n="32" facs="tcp:33745:19"/>
+of the ſoules in Purgatory, till the day of Iudgment: and therefore I doe wonder how this fancy could occurre vnto him. Morover the Maior part of Catholick Doctors doe denye that the obſtinacy of the Divells <hi>in malo</hi> procee<g ref="char:EOLhyphen"/>des from their inflexibility, but rather from the wretched Condition of their ſtate, certainly knowing that out of it there is noe Redemption: and vpon that ſcore conceive an intenſe hatred againſt God, the inflictor of their torments, grea<g ref="char:EOLhyphen"/>ter then can be expreſs'd. Beſides it is evident out of S. Luke cap. 11 that <hi>diabo<g ref="char:EOLhyphen"/>lus mutat aliquando ſententiam. Cum im<g ref="char:EOLhyphen"/>mundus ſpiritus</hi> (ſais this holy Euangeliſt) <hi>exierii de homine perambulat per loca ina<g ref="char:EOLhyphen"/>quoſa quaerens requiem: &amp; non inueniens dicit, reuertar in domum meam, vnde exiui.</hi>
+            </p>
+            <p>And did noth the Divell <hi>mutare ſen<g ref="char:EOLhyphen"/>tentiam</hi> when he perſwaded Iudas to be<g ref="char:EOLhyphen"/>tray Chriſt, and a little while after, indea<g ref="char:EOLhyphen"/>vored to hinder his ſentence of Death, ſuggeſting to Pilates wife in her ſleepe
+<pb n="33" facs="tcp:33745:19"/>
+to divert Pilate from giveing ſentence? <hi>ergo</hi> the Divells are not ſoe immutable or inflexible, but that they can change their opinion. To Conclude, naturall reaſon doth demonſtrate mutability and flexibi<g ref="char:EOLhyphen"/>lity in Angells: for noe obiect can intro<g ref="char:EOLhyphen"/>duce a neceſſity in their will, vnles it hath <hi>rationem ſummi boni vel ſummi mali:</hi> but there are noe obiects which haue <hi>ra<g ref="char:EOLhyphen"/>tionem ſummi boni vel ſummi mali, reſpectu tum intellectus, tum voluntatis Angelorum,</hi> as is cleare, and Confeſſed by both Phi<g ref="char:EOLhyphen"/>loſophers and Divines. <hi>Ergo,</hi> &amp;c.</p>
+            <p>Out of the Premiſſes I doe evidently conclude M.<hi rend="sup">r</hi> Blacloe in his Learning to be iniurious to holy Scripture, to the Ca<g ref="char:EOLhyphen"/>tholick Church, and to naturall reaſon, and conſequently that his ſpirit is neither ſober, nor Chriſtian like, nor peacable: for S. Auſtine ſais lib. 4. de Trin. cap. 6. <hi>Con<g ref="char:EOLhyphen"/>tra rationem nemo ſobrius, contra Scriptu<g ref="char:EOLhyphen"/>ram nemo Chriſtianus, contra Eccleſiam ne<g ref="char:EOLhyphen"/>mo pacificus ſenſerit.</hi>
+            </p>
+            <p>I doe remember when I was Superiour
+<pb n="34" facs="tcp:33745:20"/>
+in England, that the foreſaid detention of the ſoules in Purgatory, begott ſoe great a ſcandall amongſt Catholicks, that ſome weere reſolved to beſtow noe cha<g ref="char:EOLhyphen"/>rities vpon the ſecular Clergy, imagining them to be infected with M.<hi rend="sup">r</hi> Blacloes exorbitant doctrine. And ſome 2. or 3. yeeres agone, one of our Cheifeſt Bre<g ref="char:EOLhyphen"/>thren for learning, and other greate parts, being on his death bed, and leaving by will a conſiderable Charity to the ſecular Clergy, that his ſoule might receive be<g ref="char:EOLhyphen"/>nefit by their prayers, made à <hi>prouiſo,</hi> or expreſſe order, that noe part of the ſaid Charity should be diſtributed to M.<hi rend="sup">r</hi> Bla<g ref="char:EOLhyphen"/>cloe or his adherents. Now how great à diſgrace, how odious a ſcandall, how conſiderable à preiudice M.<hi rend="sup">r</hi> Blacloes new Divinity hath brought to the ſecular Clergy, I appeale to your Iudgments.</p>
+            <p>I could enlarge my ſelfe in this decla<g ref="char:EOLhyphen"/>ratory Epiſtle, if I thought it either neceſ<g ref="char:EOLhyphen"/>ſary, or that I were furnis'hd with con<g ref="char:EOLhyphen"/>venient leaſure from my other Engage<g ref="char:EOLhyphen"/>ments.
+<pb n="35" facs="tcp:33745:20"/>
+However I haue thought it fitt to inculcate vnto you, two ſpeciall inſtru<g ref="char:EOLhyphen"/>ctions, conducing to your owne advanta<g ref="char:EOLhyphen"/>ge, and to the advancement of your Re<g ref="char:EOLhyphen"/>ligion.</p>
+            <p>The firſt is the Excellencie of your vo<g ref="char:EOLhyphen"/>cation, in which the diuine goodnes hath promoted you to the higheſt dignitie vpon earth, to wit, the office or charge of ſpirituall Paſtors, importing <hi>zelus ani<g ref="char:EOLhyphen"/>marum,</hi> which, according to holy Scriptu<g ref="char:EOLhyphen"/>re, is <hi>omnium diuinorum diuiniſsimum:</hi> for it doeth render you perfect imitators of God, and Coadiutors of Chriſt in the converſion of Sinners. And S. Chryſo<g ref="char:EOLhyphen"/>ſtome affirmes <hi>in or: de S. Philog.</hi> that the<g ref="char:EOLhyphen"/>re is not any thing in this mortall life, that can afford a more ample, and evident teſtimony of perfect Charity towards God, then to procure the ſalvation of ſou<g ref="char:EOLhyphen"/>les, <hi>pro quibus mortuus eſt Chriſtus.</hi>
+            </p>
+            <p>The moſt divine proprietie of that di<g ref="char:EOLhyphen"/>vine zeale conſiſteth in the Sacrifice of our lives, Holy David was inflamed
+<pb n="36" facs="tcp:33745:21"/>
+with zeale relating to that proprietie, when he ſaid, <hi>Quis mihi tribuat, vt ego mo<g ref="char:EOLhyphen"/>riar pro te, Fili mi Abſalon, fili mi?</hi> as alſoe S. Paul 2. Cor. 12. <hi>Ego autem libentiſsime impendam, &amp; ſuper impendar ipſe pro ani<g ref="char:EOLhyphen"/>bus veſtris:</hi> and 1. Cor. 15. <hi>quotidie morior propter veſtram gloriam fratres.</hi> But to ſearch noe farther for examples of this nature, the Sonnes of your old Mother, your owne Brethren and Predeceſſors, in this laſt age, haue excelled in this attribu<g ref="char:EOLhyphen"/>te of <hi>zelus animarum,</hi> willingly embra<g ref="char:EOLhyphen"/>cing ignominious deaths proper to dog<g ref="char:EOLhyphen"/>ges, and Thieves for the defence of Ca<g ref="char:EOLhyphen"/>tholick faith. As the Childre<g ref="char:cmbAbbrStroke">̄</g> of Iſrael poſ<g ref="char:EOLhyphen"/>ſeſs'd the land of promiſe <hi>in funiculo di<g ref="char:EOLhyphen"/>stributionis;</hi> euen ſoe they purchas'd the heavenly Paradiſe, prefigur'd by the land of promiſe, <hi>in funiculo or laqueo ſuſpendij.</hi> To execute Chriſt their Maiſter's Coun<g ref="char:EOLhyphen"/>ſell, to wit, <hi>eſtore prudentes ſicut ſerpentes,</hi> like wiſe ſerpents <hi>tranſeuntes per anguſtum foramen,</hi> that is, the narrow noze of a Rope, they vnveſted themſelves of their
+<pb n="37" facs="tcp:33745:21"/>
+old garment of mortality, and aſſum'd a new habit of Immortall glory. And their blood was the firſt ſeede that preſerv'd Religion, in your Country, that conti<g ref="char:EOLhyphen"/>nued it, that encreas'd it They were prin<g ref="char:EOLhyphen"/>cipally the foundation ſtones of your re<g ref="char:EOLhyphen"/>builded Church, cemented in their owne blood, next vnto the angular ſtone Chriſt IESVS. Therefore the inheritance of this Church cheifly belongeth to you, who are the true ſucceſſors of your Bre<g ref="char:EOLhyphen"/>thren, who with th' effuſion of their blood founded it, and rais'd it anew: and this inheritance you will ever enioy, vn<g ref="char:EOLhyphen"/>les vnfortunately you ſhall ſell it for a meſſe of Pottage, that is, for an inordina<g ref="char:EOLhyphen"/>te appetite of profane doctrines.</p>
+            <p>There is another proprietie belonging to that divine zeale of ſoules, and more eſſentially, and neceſſarily annex'd to your ſpirituall charge, then the former a<g ref="char:EOLhyphen"/>boue mentioned. This is a prudent and carefull conduct in your governement, which S. Peter in his firſt Epiſtle expreſ<g ref="char:EOLhyphen"/>ſeth
+<pb n="38" facs="tcp:33745:22"/>
+in theſe few words, <hi>ſobrii eſtote &amp; vi<g ref="char:EOLhyphen"/>gilate.</hi> And S. Paul Rom. 12. shew's evi<g ref="char:EOLhyphen"/>dently that paſtorall governement hath a neceſſary depe<g ref="char:cmbAbbrStroke">̄</g>dance of ſobrietie, when he ſais, <hi>non plus ſapere quam oportet ſapere, ſed ſaperead ſobrietatem:</hi> the meaning of which ſentence in the 1. Tim. he particu<g ref="char:EOLhyphen"/>larly declare<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h, commanding Timothy <hi>deuitare profanas vocum nouitates, &amp; op<g ref="char:EOLhyphen"/>poſitiones falſi nomini<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſcientia.</hi> And the reaſon is, for if Paſtors doe entertaine fal<g ref="char:EOLhyphen"/>ſe doctrines, or doe ſuffer them to take roote in their Territories on diſtricts, they will bring, infallible ruine to many ſou<g ref="char:EOLhyphen"/>les. For doctrine being the Spirituall food, if ſound, good, and incorrupted, it nourisheth, and preſerves life; if vnſound, and corrupted, it poyſoneth and cauſeth death. Atrius, ſaith S. Hierome, <hi>vna ſcin<g ref="char:EOLhyphen"/>tilla fuit, ſed quia non ſtatim oppreſſa, totu<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> orbem depopulata eſt.</hi>
+            </p>
+            <p>The difference betwixt profane No<g ref="char:EOLhyphen"/>velties and ſober doctrine, is, that this is grounded in Vniverſalitie, the others in
+<pb n="39" facs="tcp:33745:22"/>
+ſingularitie: this relyeth on <hi>vnitas, Do<g ref="char:EOLhyphen"/>ctorum,</hi> profane Novelties on <hi>vnus Do<g ref="char:EOLhyphen"/>ctor</hi> which how daungerous and perni<g ref="char:EOLhyphen"/>cious a thing it is, clearely expreſſeth the golden ſentence of Martianus the Em<g ref="char:EOLhyphen"/>perour, delivered in the Cou<g ref="char:cmbAbbrStroke">̄</g>cell of Chal<g ref="char:EOLhyphen"/>cedon, <hi>qui</hi> (inquit) <hi>poſt veritatem repertam, <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Doctorum vnitateſtabilitam, aliquid vl<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>erius diſcutit, mendacium quaerit.</hi>
+            </p>
+            <p>The like cenſure is vſually inflicted on ill profane Novelties deſcending from <hi>Vnus Doctor,</hi> or ſingularitie, by the an<g ref="char:EOLhyphen"/>cient Fathers S. Auſtine, S. Hylatius, S. Hierom, Tertullian, &amp;c. They zealous<g ref="char:EOLhyphen"/>ly reſiſted by their writings new doctri<g ref="char:EOLhyphen"/>nes in their bud, or firſt ſpringing vp, be<g ref="char:EOLhyphen"/>fore they weere preſented to the touch<g ref="char:EOLhyphen"/>ſtone of Chriſts Vicar, to be mark'd with <hi>Anathema.</hi> And it is evident out of the Romane Breviarie die 26. Novem<g ref="char:EOLhyphen"/>bris, that S. Peter Bishop of Alexandria excommunicated Atrius for favouring Meleſius, who according to S. Epiph. <hi>Sectam dumtaxat fecerat, &amp; non à fide diſ<g ref="char:EOLhyphen"/>ceſſerat.</hi>
+               <pb n="40" facs="tcp:33745:23"/>
+I wish that you weere furnish'd with convenient opportunitie to peruſe the gallant workes of theſe old Cham<g ref="char:EOLhyphen"/>pions of Catholick faith, that thereby you might be moved and encouraged to imitate their zeale and conduct in paſto<g ref="char:EOLhyphen"/>rall governement; and to learne from them, <hi>ſapere ad ſobrietatem.</hi>
+            </p>
+            <p>But <hi>ſapere ad ſobrietatem</hi> is not onely <hi>ſapere ad ſanam doctrinam,</hi> it alſo imports <hi>ſapere ad obedientiam</hi> The obedience of S. Peter Chriſts firſt Vicar, did recover the Keyes of heaven which diſobedience had loſt: <hi>tibi dabo claues regni caelorum,</hi> Mat. 16. and if you shall exhibit obedien<g ref="char:EOLhyphen"/>ce to his lawfull ſucceſſor, infallibly you will regaine the authority, power, a<g ref="char:cmbAbbrStroke">̄</g>d Iuriſdiction, which you weere depriu'd of by the Death of your Bleſſed Bishop. For as great S. Gregorie ſaies, <hi>ſi obedientes fuerimus Praepoſitis noſtris, obediet Dominus orationibus noſtris.</hi> But how obedient M.<hi rend="sup">r</hi> Blacloe hath beene to his <hi>Praepoſiti,</hi> I leaue it to your ſelves to forme a Iudg<g ref="char:EOLhyphen"/>ment,
+<pb n="41" facs="tcp:33745:23"/>
+out of the aboue mention'd paſſa<g ref="char:EOLhyphen"/>ges. And how obediently M.<hi rend="sup">r</hi> Harring<g ref="char:EOLhyphen"/>ton hath exercis'd his pretended office of Sub-Deanship, I will remitt you to the Cloſe of your Bishops letter, dated 11. October, 1653. and directed to Marke Harrington, William Harriſon, Peter Peterſon, Thomas Ashton, Andrew Knightley, where concerning the ſaid Sub-Deanship as followeth.</p>
+            <floatingText type="letter" xml:lang="eng">
+               <body>
+                  <p>
+                     <hi>And as for M.<hi rend="sup">r</hi> Harringtons Sub-Deans<g ref="char:EOLhyphen"/>hip, I anſwere that I neuer inſtituted ſuch an office, nor would make him Sub-Deane, though M.<hi rend="sup">r</hi> Fitton did deſire me; nor euer aſ<g ref="char:EOLhyphen"/>ſuredly knew, that euer he vſurped ſuch an office, vntill I read your firſt letter. Where<g ref="char:EOLhyphen"/>fore I command him to giue it ouer, till he shew me, both that M.<hi rend="sup">r</hi> Fitton had autority to make him Sub-Deane, and alſo legally made him ſuch.</hi> Pacem &amp; veritatem dili<g ref="char:EOLhyphen"/>gite, &amp; Deus pacis erit vobiſcum. <hi>Farewell.</hi>
+                  </p>
+                  <closer>
+                     <signed>Yours aſſuredly <hi>RIC. CALC.</hi>
+                     </signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <p>
+               <pb n="42" facs="tcp:33745:24"/>Heere is obſervable, that M.<hi rend="sup">r</hi> Harring<g ref="char:EOLhyphen"/>ton, notwithſtanding his Lordships co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>mand, did not deſiſt from the execution of the ſaid Sub-Deanship. And if M.<hi rend="sup">r</hi> Fitton could not inſtitute him Sub-Deane, how can it be imagined, that <hi>in articulo mortis,</hi> he left him a Deanship for a Le<g ref="char:EOLhyphen"/>gacie. Theſe are proceedings without any preſident: and therefore I can ſay with S. Auſtine in his 3. booke againſt Iulian aboue mentioned, <hi>mira ſunt quae dicitis, noua ſunt quae dicitis: mira stupemus, noua cauemus.</hi> I confeſſe ingeniouſly I vn<g ref="char:EOLhyphen"/>derſta<g ref="char:cmbAbbrStroke">̄</g>d not this way of mannaging your affaires. <hi>Vir obediens loquetur victorias.</hi> And vpon this ſcore onely you can be a flourishing Clergy.</p>
+            <p>The ſecond inſtruction, conducing to your owne, and your Religions advance<g ref="char:EOLhyphen"/>ment, is Chriſtian patience in your pre<g ref="char:EOLhyphen"/>ſent perſecution. It conduceth to your owne advantage, becauſe as fier doth giue an addition of luſtre to Gold tried in the furnace: euen ſoe affliction renders
+<pb n="43" facs="tcp:33745:24"/>
+the afflicted more illuſtrious, <hi>afflictio af<g ref="char:EOLhyphen"/>flictos multum nobilitat.</hi> Alſo it conduceth to the advancement of your Religion; for as Camamile the more it is trod on, and ſuppreſt, the more it ſpreads, and flou<g ref="char:EOLhyphen"/>rishe<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h: in like manner your Religion the more it is perſecuted, the more grou<g ref="char:cmbAbbrStroke">̄</g>d it winnes, <hi>non reſiſtendo ſe patiendo creſ it.</hi>
+            </p>
+            <p>Theſe advantages vndoubtedly will afford you comfort, encouragement, and conſtancie in your sharpe encounter with tribulation, for ſeeing that the pro<g ref="char:EOLhyphen"/>prietie of affliction <hi>propter iuſtitiam,</hi> is <hi>af<g ref="char:EOLhyphen"/>flictos nobilitare,</hi> that is, to dignifie, and make glorious: it iuſtly challengeth fro<g ref="char:cmbAbbrStroke">̄</g> you eſteeme, reſpect, and honour. Holy Iob (ſaith S. Chryſoſtome hom. 15. ad Pop. Antioch) <hi>Non tam ſplendidus fuit in tribunali Rex ſedens, quam inſignis &amp; illu<g ref="char:EOLhyphen"/>ſtris in fimo.</hi> His dunghill of affliction did more dignifie him, then his throne of Maieſtie, his vlcers did more beautifie him, than before the integrity of his body. Iob without his vlcers wee
+<pb n="44" facs="tcp:33745:25"/>
+leſſe reverence: Iob with his vlcers wee regard, admire, and honour, as the onely miracle of patience. And therefore Iob had never obtain'd ſoe excellent a pre<g ref="char:EOLhyphen"/>rogative of honour, and worship, if on his dunghill he had not ſuſteyned con<g ref="char:EOLhyphen"/>tradiction, and affliction. The holy Apoſt<g ref="char:EOLhyphen"/>les knowing the benefit of tribulation <hi>propter iuſtitiam,</hi> cheerefully endured ſtri<g ref="char:EOLhyphen"/>pes, priſons, bannishments, gibbetts, sword's, launces, kniues, and all ſortes of cruell torments: but after their Death, the ſame world that ſentenc'd them to dye, did, and doth ſtill celebrate their me<g ref="char:EOLhyphen"/>mories with Religious worship. S. Au<g ref="char:EOLhyphen"/>ſtine in pſal. 44 ſais thus, <hi>oſtendatur mihi Romae in honore tanto templum Romuli, in quanto ibi oſtendo memoriam Petri.</hi> And in pſal. 65. he relates, how the Emperour <hi>diademate depoſito plorauit ad memoriam piſcatoris.</hi> And experience evidently shew's, that the Catholick church in all times, and ages, hath celebrated the me<g ref="char:EOLhyphen"/>mory of other Saint's, Confeſſors, Mar<g ref="char:EOLhyphen"/>tyrs,
+<pb n="45" facs="tcp:33745:25"/>
+Doctors, and Virgins with much ioy, with greate ſolemnitie, with ſingu<g ref="char:EOLhyphen"/>lar honour, and with Religious reveren<g ref="char:EOLhyphen"/>ce. And your laſt Bleſſed Martyr, if the ſyer of tribulation had not tryed, and dig<g ref="char:EOLhyphen"/>nified him in the fornace of Tyburne, he would haue wanted the honour that is exhibited vnto him, and the honorable Tombe that he now enioyeth. Neither did the golden chaines shine ſoe bright on the shoulders of his Perſecutors, as did the Rope about his necke.</p>
+            <p>But tribulation gaue not luſtre to Iob onely as he ſate on his dunghill, or to the Apoſtles, and other Saint's in the encoun<g ref="char:EOLhyphen"/>ter with their cruel torments: for after death it procured a ſplendour of: farre higher nature: <hi>Momentaneum hoc</hi> (ſais the Apoſtle, 2. Cor. 4.) <hi>tribulationis no<g ref="char:EOLhyphen"/>ſtrae aeternum gloriae pondus operatur in caelis.</hi> after the finishing of their tortures, it wrought a glory aboue it ſelfe, according to the ſame Apoſtie, <hi>non ſunt condignae paſ<g ref="char:EOLhyphen"/>ſiones huius temporis ad futuram gloriam.</hi>
+            </p>
+            <p>
+               <pb n="46" facs="tcp:33745:26"/>Out of the premiſſes you may tightly conclude that tribulation <hi>propter iuſtitiam</hi> is <hi>ingens bonum. Bonum,</hi> becauſe it doth be<g ref="char:EOLhyphen"/>nefit, and dignifie the afflicted. Moreo<g ref="char:EOLhyphen"/>ver Chriſt himſelfe biddeth vs take ioy in it, according to the holy text, <hi>Cum per<g ref="char:EOLhyphen"/>ſecuti vos fuerint homines, propter me, gau<g ref="char:EOLhyphen"/>dete, &amp; exultate.</hi> And therefore it is <hi>bo<g ref="char:EOLhyphen"/>num;</hi> for to expreſſe gladnes for a thing that is not good, is againſt the light of reaſon. And that it is <hi>ingens bonum,</hi> is clearly gathered, from the excellencie of the reward, that is due vnto it, <hi>merces co<g ref="char:EOLhyphen"/>pioſa in caelis.</hi> Moreover it is not onely <hi>hominis bonum,</hi> but alſo <hi>Dei donum. Vobis</hi> (ſais the Apoſtle to the Hebrews) <hi>datur non ſolum in eum</hi> (Chriſtum) <hi>credere, ſed etiam rapinam bonorum pati,</hi> as if <hi>credere in Chriſtum,</hi> without <hi>pati pro Chriſto,</hi> weere inſufficient. And vpon this ſcore, S. Hie<g ref="char:EOLhyphen"/>rome in his Epiſtle ad Aſcl. rendereth thankes to God, for his affliction. And S Cyprian, when his perſecuting Iudge pronounced ſentence of death againſt
+<pb n="47" facs="tcp:33745:26"/>
+him, replied onely <hi>Deo gratias.</hi> Where<g ref="char:EOLhyphen"/>fore perſecution <hi>propter iuſtitiam,</hi> is both <hi>donum,</hi> and <hi>bonum; donum</hi> in that it pro<g ref="char:EOLhyphen"/>ceedeth from God: <hi>bonum</hi> in regard it honoureth the giver, enricheth, and dig<g ref="char:EOLhyphen"/>nifieth the receiver.</p>
+            <p>Yet that which more evidently doth manifeſt tribulation, to be both <hi>bonum,</hi> and <hi>donum,</hi> is the appatent exhibition of Gods preſence, and ſpeciall aſſiſtance, towards all thoſe who ſuffer for his ſake. God was preſent with Ioſeph in Egypt, with the Iſraelites in the red ſea, with the three Children in the burning furnace, with Ionas in the bottome of the ſea, with S. Peter in priſon, whom he mira<g ref="char:EOLhyphen"/>culouſly enlarged, with S. Agatha in the torture of her breaſt, which he reſto<g ref="char:EOLhyphen"/>red, with S. Catherine on the wheele, which he Broke in peeces, with S. Agnes in the fier, which he extinguish'd, and with ſeverall Legions of other Saints, in their ſeverall afflictions and torments.</p>
+            <p>Now I could extreamely deſire, that
+<pb n="48" facs="tcp:33745:27"/>
+this <hi>bonum,</hi> and <hi>donum tribulationis propter iuſtitiam,</hi> weere not onely imprinted in your mindes, but in the hearts of all your English Lay Catholicks, who, at this in<g ref="char:EOLhyphen"/>ſtant, doe grone, vnder the burden of as heavy a perſecution, as hath happen'd (perhaps) ſince the change of Religion to the end, that ſetled in a Chriſtian Con<g ref="char:EOLhyphen"/>fidence of the divine preſence, and aſſi<g ref="char:EOLhyphen"/>ſtance in their afflictions, and encoura<g ref="char:EOLhyphen"/>ged with a Chriſtian expectation of their great reward, <hi>merces copioſa in caelis,</hi> they may haue ioy in their furnaces, de<g ref="char:EOLhyphen"/>light in their priſons, content in their penalties, and comfort in their <hi>rapina om<g ref="char:EOLhyphen"/>nium bonorum.</hi> And it is an infallible argu<g ref="char:EOLhyphen"/>ment, that thoſe Chriſtians doe begin to liue eternally in Chriſt, who endure temporall perſecution for Chriſt. For to begin to liue in Chriſt eternally, is to ma<g ref="char:EOLhyphen"/>ke a liuely profeſſion of their faith in Chriſt: and to make a liuely profeſſion of their faith in Chriſt, is to eſpouſe the Croſſe of Chriſt, on which in his owne
+<pb n="49" facs="tcp:33745:27"/>
+perſon he deſtroyed death, and reſtored life. And to eſpouſe the Croſſe of Chriſt, is to vndergoe the <hi>torcular;</hi> for the Croſſe of Chriſt, is <hi>verè torcular,</hi> in which the firſt preſſed botrus, or bunch of grapes was Chriſt himſelfe, à <hi>botrus</hi> I ſay, that was not emptie but full of generous, pleaſant, and moſt rich wine, from which proceeded <hi>praeclarus Calix ine<g ref="char:EOLhyphen"/>brians,</hi> that is, the moſt Auguſt price of our Redemption.</p>
+            <p>Theſe premiſſes, like a pure glaſſe, doe reflect, and clearely shew the neceſſarie, and eſſentiall connexion that interceedes betwit <hi>credere in Chriſtum,</hi> and <hi>pati pro Chriſto:</hi> and conſequently doe illuſtrat that orthodoxe veritie inculcated to the Hebrew's, <hi>vobis datur non ſolum in eum credere, ſed etiam rapinam bonorum pati.</hi> Wherefore, if <hi>credere in Chriſtum,</hi> shall iuſtly challenge from you reſpect, eſtee<g ref="char:EOLhyphen"/>me, and obedience, the ſame honour reverence, and ſubmiſſion is due to <hi>pati pro Chriſto.</hi> That you may be armed
+<pb n="50" facs="tcp:33745:28"/>
+with Chriſtian conſtancy, and Chriſtian perſeverance, both <hi>credere in Chriſtum,</hi> and <hi>pati pro Chriſto,</hi> I shall daily offer to Chriſt my beſt employments, and ſay with the Bleſſed Apoſtle, <hi>quotidie morior propter veſtram gloriam fratres;</hi> Who am.</p>
+            <closer>
+               <signed>Your moſt obedient brother in Christ IESVS, and moſt humble ſervant. <hi>G. L.</hi>
+               </signed>
+            </closer>
+            <postscript>
+               <p>Poſtſcript</p>
+               <p>I doe profeſſe before God, and his bleſ<g ref="char:EOLhyphen"/>ſed Angells, that my deſigne, in publis<g ref="char:EOLhyphen"/>hing this declaratory Epiſtle, hath beene purely to conſerue our Clergies honour, to preuent farther ſpreading of dange<g ref="char:EOLhyphen"/>rous doctrines, and to vindicate my owne Innocency.</p>
+               <p>As concerning difference betwixt my ſelfe, and M.<hi rend="sup">r</hi> Blacloe, in the time of my acquaintance with him, that is, in the
+<pb n="51" facs="tcp:33745:28"/>
+ſpace of aboue thirty yeeres, to my beſt remembrance, I neuer gaue him the leaſt occaſion of offence, more than shewing my averſion from his profane Novelties, in which I did adheere to all our ancient Clergy: as alſoe by expreſ<g ref="char:EOLhyphen"/>ſing my diſlike of his perverſneſſe, and diſobedience, to Authority.</p>
+            </postscript>
+            <trailer>FIN.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
